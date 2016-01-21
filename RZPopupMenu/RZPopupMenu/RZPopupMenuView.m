@@ -327,10 +327,13 @@ static CGPoint RotateCGPointAroundCenter(CGPoint point, CGPoint center, float an
         [self close];
     }
     
-//    CGFloat angle = expand ? - M_PI_4 : 0.0f;
-//    [UIView animateWithDuration:kRZPopupMenuAnimationDuration animations:^{
-//        self.centerBtn.transform = CGAffineTransformMakeRotation(angle);
-//    }];
+    CGFloat angle = expand ? - M_PI_4 : 0.0f;
+    CAKeyframeAnimation *rotationAni = [CAKeyframeAnimation animationWithKeyPath:@"transform.rotation.z"];
+    rotationAni.values = @[@(angle)];
+    rotationAni.duration = kRZPopupMenuAnimationDuration;
+    rotationAni.fillMode = kCAFillModeForwards;
+    rotationAni.removedOnCompletion = NO;
+    [self.centerBtn.layer addAnimation:rotationAni forKey:@"centerAni"];
     
     _expanded = expand;
 }

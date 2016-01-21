@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4901831B-9E87-4FA7-9597-8F888C8387EC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RZPopupMenu</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>80DDB5A89C22BE30ECC46FC699565063C6AB9A44</key>
+		<string>https://github.com/Zrocky/RZPopupMenu.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RZPopupMenu.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>80DDB5A89C22BE30ECC46FC699565063C6AB9A44</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Zrocky/RZPopupMenu.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>80DDB5A89C22BE30ECC46FC699565063C6AB9A44</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>80DDB5A89C22BE30ECC46FC699565063C6AB9A44</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RZPopupMenu</string>
+		</dict>
+	</array>
+</dict>
+</plist>
